@@ -4,11 +4,19 @@ import './About.css';
 const About = () => {
   return (
     <section className="about" id="about">
-      <h1>About me</h1>
+      <h2>About me</h2>
       <p>
-        I can help you build a product, feature or website. Look through some of
-        my work and experience! If you like what you see and have a project you
-        need coded, don't hesitate to contact me.
+        Hello! My name is Diego and I enjoy creating things that live on the
+        internet. My interest in web development started back in 2018 when I
+        decided to try out for my first school project — turns out putting
+        together a simple website taught me a lot about HTML & CSS!
+      </p>
+      <p>
+        I’ve had the privilege of working with some experienced professionals
+        which has enhanced my skills and rate of learning. My main focus these
+        days is building accessible, inclusive products and digital experiences,
+        as well as creating designs and illustrations. With my experience I have
+        what it takes to solve real world problems
       </p>
       <button>Get My Resume</button>
     </section>

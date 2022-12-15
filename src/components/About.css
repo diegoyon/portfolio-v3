@@ -1,3 +1,12 @@
 .about {
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  color: white;
+}
+
+.about p {
+  color: #aeb8ca;
 }

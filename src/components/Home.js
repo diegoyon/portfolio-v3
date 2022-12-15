@@ -1,5 +1,7 @@
 import React from 'react';
 import './Home.css';
+import { BsLinkedin, BsGithub } from 'react-icons/bs';
+import { GoMail } from 'react-icons/go';
 
 const Home = () => {
   return (
@@ -11,6 +13,17 @@ const Home = () => {
         accessible and user-oriented. Focus on delivering great products with
         great user experience.
       </p>
+      <ul className="icon-list">
+        <li>
+          <BsLinkedin className="icons" />
+        </li>
+        <li>
+          <BsGithub className="icons" />
+        </li>
+        <li>
+          <GoMail className="icons" />
+        </li>
+      </ul>
     </section>
   );
 };

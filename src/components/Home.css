@@ -3,7 +3,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0 3rem;
 }
 
 .home h1 {
@@ -21,6 +20,10 @@
   background-size: 500%;
 }
 
+.home h2 {
+  color: white;
+}
+
 @keyframes animate {
   0% {
     background-position: 0 100%;
@@ -35,4 +38,16 @@
 
 .home p {
   color: #aeb8ca;
+}
+
+.icon-list {
+  display: flex;
+  gap: 1.5rem;
+  margin: 2rem;
+  justify-content: center;
+}
+
+.icons {
+  font-size: 2rem;
+  color: rgba(0, 212, 255, 1);
 }

@@ -10,7 +10,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: white;
 }
 
 body {
@@ -21,6 +20,7 @@ body {
     rgba(23, 26, 33, 1) 90%,
     rgba(0, 212, 255, 1) 100%
   );
+  padding: 0 3rem;
 }
 
 ul {
@@ -33,4 +33,23 @@ a {
 
 a:visited {
   text-decoration: none;
+}
+
+h2 {
+  font-size: xx-large;
+}
+
+button {
+  width: fit-content;
+  background-color: #171a21;
+  cursor: pointer;
+  color: white;
+  padding: 1rem;
+  border: 5px solid rgba(0, 212, 255, 1);
+  border-radius: 5rem;
+  box-shadow: 0px 0px 20px 0px rgba(0, 212, 255, 1);
+}
+
+button:hover {
+  box-shadow: 0px 0px 30px 0px rgba(0, 212, 255, 1);
 }

@@ -4,10 +4,11 @@ import './Contact.css';
 const Contact = () => {
   return (
     <section className="contact" id="contact">
-      <h2>
+      <h2>Contact</h2>
+      <h3>
         I'm always interested in hearing about new projects, so if you'd like to
         chat please get in touch.
-      </h2>
+      </h3>
       <form action="https://formspree.io/f/mnqwwwwq" method="post" id="form">
         <input
           type="text"
