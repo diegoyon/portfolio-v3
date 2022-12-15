@@ -1,3 +1,38 @@
-#home{
+.home {
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 3rem;
+}
+
+.home h1 {
+  font-size: 3.5rem;
+  color: transparent;
+  background-image: linear-gradient(
+    to left,
+    #2ecc71,
+    #3498db,
+    #9b59b6,
+    #f39c12
+  );
+  background-clip: text;
+  animation: animate 5s linear infinite;
+  background-size: 500%;
+}
+
+@keyframes animate {
+  0% {
+    background-position: 0 100%;
+  }
+  50% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: 0 100%;
+  }
+}
+
+.home p {
+  color: #aeb8ca;
 }
