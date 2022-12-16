@@ -23,7 +23,7 @@ const Project = (props) => {
         <p>{description}</p>
         <div className="project-skills">
           {skills.map((skill) => (
-            <p>{skill}</p>
+            <p key={skill}>{skill}</p>
           ))}
         </div>
       </div>

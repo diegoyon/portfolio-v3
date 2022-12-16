@@ -6,11 +6,19 @@
   height: 5rem;
   background-color: rgba(23, 26, 33, 0.5);
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
   padding: 0 3rem;
   backdrop-filter: blur(5px);
   color: white;
+  z-index: 10;
+}
+
+.inside-navbar {
+  width: 100%;
+  max-width: 70rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .navbar-links {

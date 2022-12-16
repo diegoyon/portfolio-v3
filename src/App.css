@@ -21,6 +21,13 @@ body {
     rgba(0, 212, 255, 1) 100%
   );
   padding: 0 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#root {
+  max-width: 70rem;
 }
 
 ul {
