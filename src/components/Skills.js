@@ -2,7 +2,14 @@ import React from 'react';
 import './Skills.css';
 import { AiFillHtml5, AiFillGithub } from 'react-icons/ai';
 import { DiCss3, DiRuby } from 'react-icons/di';
-import { SiJavascript, SiTailwindcss, SiRubyonrails } from 'react-icons/si';
+import {
+  SiJavascript,
+  SiTailwindcss,
+  SiRubyonrails,
+  SiRedux,
+  SiPostgresql,
+  SiNetlify,
+} from 'react-icons/si';
 import { FaReact } from 'react-icons/fa';
 
 const Skills = () => {
@@ -27,6 +34,10 @@ const Skills = () => {
           <p>React</p>
         </div>
         <div className="skill-card">
+          <SiRedux className="skill-icon" />
+          <p>Redux</p>
+        </div>
+        <div className="skill-card">
           <SiTailwindcss className="skill-icon" />
           <p>Tailwind CSS</p>
         </div>
@@ -41,6 +52,14 @@ const Skills = () => {
         <div className="skill-card">
           <SiRubyonrails className="skill-icon" />
           <p>Ruby On Rails</p>
+        </div>
+        <div className="skill-card">
+          <SiNetlify className="skill-icon" />
+          <p>Netlify</p>
+        </div>
+        <div className="skill-card">
+          <SiPostgresql className="skill-icon" />
+          <p>PostgreSQL</p>
         </div>
       </div>
     </section>

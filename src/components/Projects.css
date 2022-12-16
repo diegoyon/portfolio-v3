@@ -1,0 +1,17 @@
+.projects {
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects-list {
+  margin: 2rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* grid-template-columns: repeat(3, 1fr); */
+  gap: 2rem;
+}

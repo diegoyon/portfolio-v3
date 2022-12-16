@@ -14,7 +14,7 @@ const Contact = () => {
           type="text"
           name="name"
           required
-          maxlength="30"
+          maxLength="30"
           placeholder="Full Name"
         />
         <input
@@ -28,7 +28,7 @@ const Contact = () => {
           name="message"
           cols="30"
           rows="7"
-          maxlength="500"
+          maxLength="500"
           required
           placeholder="Enter text here"
         ></textarea>
