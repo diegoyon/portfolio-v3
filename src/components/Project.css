@@ -2,4 +2,62 @@
   background-color: #222632;
   padding: 2rem;
   border-radius: 5px;
+  width: 18rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+.project-card a {
+  color: white;
+}
+
+.project-card a:hover {
+  color: rgba(0, 212, 255, 1);
+}
+
+.header-icons {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+}
+
+.project-icons-left {
+  color: rgba(0, 212, 255, 1);
+}
+
+.project-icons-right {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.project-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.project-details p {
+  font-size: 0.9rem;
+  color: #aeb8ca;
+}
+
+.project-skills {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.project-skills p {
+  border: 1px solid #aeb8ca;
+  padding: 0.2rem 0.5rem;
+  border-radius: 15px;
 }

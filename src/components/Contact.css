@@ -17,6 +17,7 @@ form {
 input,
 textarea {
   padding: 1rem;
+  transition: transform 0.3s;
 }
 
 input:active,
@@ -24,4 +25,9 @@ input:focus,
 textarea:active,
 textarea:focus {
   outline: 2px solid rgba(0, 212, 255, 1);
+}
+
+input:hover,
+textarea:hover {
+  transform: translate(0.5rem, 0);
 }

@@ -1,5 +1,6 @@
 .projects {
-  height: 100vh;
+  /* height: 100vh; */
+  padding: 6rem 0;
   color: white;
   display: flex;
   flex-direction: column;
