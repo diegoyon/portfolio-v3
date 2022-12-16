@@ -29,3 +29,72 @@
 .navbar-links a {
   color: white;
 }
+
+.mobile {
+  display: none;
+}
+
+.navbar-mobile {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu-bars {
+  font-size: 1.5rem;
+}
+
+.nav-menu {
+  background-color: #2da9e1;
+  width: 15rem;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  padding: 1rem;
+  top: 0;
+  left: -100%;
+  transition: 850ms;
+}
+
+.nav-menu.activated {
+  left: 0;
+  transition: 350ms;
+}
+
+.nav-menu-items {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.navbar-toggle {
+  align-self: flex-end;
+}
+
+.nav-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.nav-text a {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.nav-text a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: flex;
+  }
+}
