@@ -24,6 +24,10 @@
   color: white;
 }
 
+.home h3 {
+  color: white;
+}
+
 @keyframes animate {
   0% {
     background-position: 0 100%;

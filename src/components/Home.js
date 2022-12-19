@@ -6,8 +6,9 @@ import { GoMail } from 'react-icons/go';
 const Home = () => {
   return (
     <section className="home" id="home">
-      <h1>Hey there. I'm Diego</h1>
-      <h2>I am a software developer</h2>
+      <h3>Hey there! 👋</h3>
+      <h1>I'm Diego</h1>
+      <h2>I'm a software developer</h2>
       <p>
         I can help you build a product, feature or website. Look through some of
         my work and experience! If you like what you see and have a project you
@@ -15,13 +16,19 @@ const Home = () => {
       </p>
       <ul className="icon-list">
         <li>
-          <BsLinkedin className="icons" />
+          <a href="https://www.linkedin.com/in/diego-yon/" target="_blank">
+            <BsLinkedin className="icons" />
+          </a>
         </li>
         <li>
-          <BsGithub className="icons" />
+          <a href="https://github.com/diegoyon" target="_blank">
+            <BsGithub className="icons" />
+          </a>
         </li>
         <li>
-          <GoMail className="icons" />
+          <a href="mailto: diegoyon@outlook.com" target="_blank">
+            <GoMail className="icons" />
+          </a>
         </li>
       </ul>
     </section>
