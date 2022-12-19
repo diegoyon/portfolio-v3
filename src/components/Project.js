@@ -10,10 +10,10 @@ const Project = (props) => {
       <div className="header-icons">
         <AiFillFolder className="project-icons-left" />
         <div className="project-icons-right">
-          <a href={gitHub}>
+          <a href={gitHub} target="_blank">
             <FiGithub />
           </a>
-          <a href={live}>
+          <a href={live} target="_blank">
             <FiExternalLink />
           </a>
         </div>
@@ -21,11 +21,11 @@ const Project = (props) => {
       <div className="project-details">
         <h4>{title}</h4>
         <p>{description}</p>
-        <div className="project-skills">
-          {skills.map((skill) => (
-            <p key={skill}>{skill}</p>
-          ))}
-        </div>
+      </div>
+      <div className="project-skills">
+        {skills.map((skill) => (
+          <p key={skill}>{skill}</p>
+        ))}
       </div>
     </div>
   );

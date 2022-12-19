@@ -5,7 +5,7 @@
   width: 18rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   transition: transform 0.3s;
 }
 
@@ -44,20 +44,27 @@
   margin: 2rem 0;
 }
 
+.project-details h4 {
+  font-size: 0.8rem;
+  margin-bottom: 0.3rem;
+}
+
 .project-details p {
-  font-size: 0.9rem;
+  font-size: 0.7rem;
   color: #aeb8ca;
 }
 
 .project-skills {
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
   display: flex;
-  gap: 1rem;
+  gap: 0.5rem;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .project-skills p {
   border: 1px solid #aeb8ca;
   padding: 0.2rem 0.5rem;
   border-radius: 15px;
+  font-size: 0.6rem;
 }
