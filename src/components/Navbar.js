@@ -52,11 +52,11 @@ const Navbar = () => {
 
         <div className="mobile">
           <Router>
-            <FaBars onClick={showSidebar} />
+            <FaBars onClick={showSidebar} className="hamburger" />
             <div className={sidebar ? 'nav-menu activated' : 'nav-menu'}>
               <ul className="nav-menu-items">
                 <li className="navbar-toggle" onClick={showSidebar}>
-                  <HashLink to="#" className="menu-bars">
+                  <HashLink className="menu-bars">
                     <AiOutlineClose />
                   </HashLink>
                 </li>

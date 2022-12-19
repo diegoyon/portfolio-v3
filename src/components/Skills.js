@@ -9,6 +9,7 @@ import {
   SiRedux,
   SiPostgresql,
   SiNetlify,
+  SiWebpack,
 } from 'react-icons/si';
 import { FaReact } from 'react-icons/fa';
 
@@ -60,6 +61,10 @@ const Skills = () => {
         <div className="skill-card">
           <SiPostgresql className="skill-icon" />
           <p>PostgreSQL</p>
+        </div>
+        <div className="skill-card">
+          <SiWebpack className="skill-icon" />
+          <p>Webpack</p>
         </div>
       </div>
     </section>
