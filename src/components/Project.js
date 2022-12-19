@@ -10,10 +10,10 @@ const Project = (props) => {
       <div className="header-icons">
         <AiFillFolder className="project-icons-left" />
         <div className="project-icons-right">
-          <a href={gitHub} target="_blank">
+          <a href={gitHub} target="_blank" rel="noreferrer">
             <FiGithub />
           </a>
-          <a href={live} target="_blank">
+          <a href={live} target="_blank" rel="noreferrer">
             <FiExternalLink />
           </a>
         </div>

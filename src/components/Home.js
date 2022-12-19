@@ -16,17 +16,29 @@ const Home = () => {
       </p>
       <ul className="icon-list">
         <li>
-          <a href="https://www.linkedin.com/in/diego-yon/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/diego-yon/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <BsLinkedin className="icons" />
           </a>
         </li>
         <li>
-          <a href="https://github.com/diegoyon" target="_blank">
+          <a
+            href="https://github.com/diegoyon"
+            target="_blank"
+            rel="noreferrer"
+          >
             <BsGithub className="icons" />
           </a>
         </li>
         <li>
-          <a href="mailto: diegoyon@outlook.com" target="_blank">
+          <a
+            href="mailto: diegoyon@outlook.com"
+            target="_blank"
+            rel="noreferrer"
+          >
             <GoMail className="icons" />
           </a>
         </li>
