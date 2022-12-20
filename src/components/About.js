@@ -19,7 +19,14 @@ const About = () => {
         great user experience and unique designs. With my experience I have what
         it takes to solve real world problems.
       </p>
-      <button>Get My Resume</button>
+      <form
+        action="https://docs.google.com/document/d/e/2PACX-1vQHP4Vv3HsEh2HniIrGM-XR3hppUQwrhkEJptrFYtlCx5SJl3jT9kbVQsv4mx-z4-z4JCipNp6jK2_n/pub"
+        target="_blank"
+      >
+        <button type="submit" value="See resume">
+          Get My Resume
+        </button>
+      </form>
     </section>
   );
 };
