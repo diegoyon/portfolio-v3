@@ -1,10 +1,11 @@
 .skills {
-  height: 100vh;
+  height: calc(100vh - 5rem);
   color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  scroll-snap-align: start;
 }
 
 .skills-grid {
