@@ -18,6 +18,7 @@
   border-radius: 1rem;
   filter: grayscale(100%) sepia(90%) hue-rotate(135deg);
   transition: 0.3s;
+  max-width: 20rem;
 }
 
 .about img:hover {
@@ -42,6 +43,7 @@
 .profile-pic {
   flex: 1;
   color: red;
+  text-align: center;
   /* background-image: url(../images/profile.jpg);
   background-size: cover;
   background-blend-mode: multiply; */
@@ -54,6 +56,10 @@
 @media (max-width: 640px) {
   .information {
     flex-direction: column-reverse;
+  }
+
+  .bio {
+    font-size: 0.8rem;
   }
 
   .about img {

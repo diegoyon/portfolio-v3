@@ -6,7 +6,7 @@ import { GoMail } from 'react-icons/go';
 const Home = () => {
   return (
     <section className="home" id="home">
-      <h3>Hey there! 👋</h3>
+      <h3>Hey there!</h3>
       <h1>I'm Diego</h1>
       <h2>
         FULL-STACK DEVELOPER WITH LOVE FOR CLEAN CODE AND ACCESIBLE DESIGN.
