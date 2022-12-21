@@ -39,12 +39,9 @@
   justify-content: flex-end;
 }
 
-.menu-bars {
-  font-size: 1.5rem;
-}
-
 .hamburger {
   cursor: pointer;
+  font-size: 1.5rem;
 }
 
 .nav-menu {
@@ -98,7 +95,7 @@
   text-decoration: underline;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 640px) {
   .desktop {
     display: none;
   }

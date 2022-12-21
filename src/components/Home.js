@@ -8,12 +8,10 @@ const Home = () => {
     <section className="home" id="home">
       <h3>Hey there! 👋</h3>
       <h1>I'm Diego</h1>
-      <h2>I'm a software developer</h2>
-      <p>
-        I can help you build a product, feature or website. Look through some of
-        my work and experience! If you like what you see and have a project you
-        need coded, don't hesitate to contact me.
-      </p>
+      <h2>
+        FULL-STACK DEVELOPER WITH LOVE FOR CLEAN CODE AND ACCESIBLE DESIGN.
+      </h2>
+      <p>BUILDING DIGITAL PRODUCTS, BRANDS, AND EXPERIENCES.</p>
       <ul className="icon-list">
         <li>
           <a
