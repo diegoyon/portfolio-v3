@@ -50,6 +50,18 @@
   object-fit: cover;
 }
 
+.swiper-button-prev {
+  color: rgba(0, 212, 255, 1) !important;
+}
+
+.swiper-button-next {
+  color: rgba(0, 212, 255, 1) !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: rgba(0, 212, 255, 1) !important;
+}
+
 .project-container {
   display: flex;
   width: 100%;
