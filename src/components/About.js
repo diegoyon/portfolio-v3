@@ -25,7 +25,7 @@ const About = () => {
           </p>
         </div>
         <div className="profile-pic">
-          <img src={profile} />
+          <img src={profile} alt="profile" />
         </div>
       </div>
       <form

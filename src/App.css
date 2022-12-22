@@ -17,7 +17,7 @@ body {
   background: linear-gradient(
     15deg,
     rgba(2, 0, 36, 1) 0%,
-    rgba(23, 26, 33, 1) 60%,
+    rgba(23, 26, 33, 1) 88%,
     rgba(0, 212, 255, 1) 100%
   );
   /* padding: 0 3rem; */
@@ -65,10 +65,10 @@ button:hover {
 
 main {
   scroll-snap-type: y mandatory;
-  overflow-y: scroll;
-  height: calc(100vh - 5rem);
+  /* overflow-y: scroll; */
+  /* height: calc(100vh - 5rem); */
   padding: 0 3rem;
-  margin-top: 5rem;
+  /* margin-top: 5rem; */
 }
 
 section {
@@ -78,10 +78,12 @@ section {
 
 ::-webkit-scrollbar {
   width: 0.5rem;
+  background-color: rgba(2, 0, 36, 1);
 }
 
 ::-webkit-scrollbar-track {
   border-radius: 10px;
+  background-color: rgba(2, 0, 36, 1);
 }
 
 ::-webkit-scrollbar-thumb {

@@ -1,9 +1,10 @@
 .home {
-  height: calc(100vh - 5rem);
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   scroll-snap-align: start;
+  /* max-height: 80vh; */
 }
 
 .home h1 {
@@ -83,6 +84,26 @@
     align-items: center;
   }
 
+  .home h2 {
+    text-align: center;
+    font-size: 4rem;
+    line-height: 3.5rem;
+  }
+
+  .home h3 {
+    font-size: 1.5rem;
+  }
+
+  .home h1 {
+    font-size: 3rem;
+  }
+
+  .home p {
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 768px) {
   .home h2 {
     text-align: center;
     font-size: 5rem;

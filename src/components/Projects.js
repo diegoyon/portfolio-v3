@@ -45,7 +45,7 @@ const Projects = () => {
         >
           {ProjectsData.map((project) => (
             <SwiperSlide key={project.title}>
-              <img src={project.image} />
+              <img src={project.image} alt={project.title} />
             </SwiperSlide>
           ))}
         </Swiper>
@@ -62,6 +62,7 @@ const Projects = () => {
         className="all-projects-button"
         href="https://github.com/diegoyon?tab=repositories"
         target="_blank"
+        rel="noreferrer"
       >
         <button type="submit" value="Projects Archive">
           All Projects Archive
