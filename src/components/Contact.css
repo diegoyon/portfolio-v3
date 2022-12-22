@@ -1,5 +1,6 @@
 .contact {
   height: 100vh;
+  padding-top: 5rem;
   display: flex;
   color: white;
   flex-direction: column;

@@ -1,6 +1,6 @@
 .projects {
-  height: calc(100vh - 5rem);
-  /* padding: 0rem 0; */
+  height: 100vh;
+  padding-top: 5rem;
   color: white;
   display: flex;
   flex-direction: column;
@@ -62,6 +62,7 @@
   }
 
   .swiper {
+    /* max-height: 20rem; */
     width: 100%;
   }
 
@@ -70,8 +71,8 @@
   }
 
   .projects {
-    justify-content: flex-start;
-    padding-top: 2rem;
+    /* justify-content: flex-start; */
+    /* padding-top: 2rem; */
   }
 
   .all-projects-button {

@@ -2,7 +2,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: calc(100% - 8px);
   height: 5rem;
   background-color: rgba(23, 26, 33, 0.5);
   display: flex;
