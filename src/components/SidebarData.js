@@ -12,17 +12,18 @@ export const SidebarData = [
     cName: 'nav-text',
   },
   {
-    title: 'Projects',
-    path: '#projects',
-    icon: <AiFillFolder />,
-    cName: 'nav-text',
-  },
-  {
     title: 'About',
     path: '#about',
     icon: <CgProfile />,
     cName: 'nav-text',
   },
+  {
+    title: 'Projects',
+    path: '#projects',
+    icon: <AiFillFolder />,
+    cName: 'nav-text',
+  },
+
   {
     title: 'Skills',
     path: '#skills',

@@ -27,13 +27,13 @@ const Navbar = () => {
                 </HashLink>
               </li>
               <li>
-                <HashLink to="#projects" smooth>
-                  Projects
+                <HashLink to="#about" smooth>
+                  About
                 </HashLink>
               </li>
               <li>
-                <HashLink to="#about" smooth>
-                  About
+                <HashLink to="#projects" smooth>
+                  Projects
                 </HashLink>
               </li>
               <li>
