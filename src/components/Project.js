@@ -1,6 +1,5 @@
 import React from 'react';
 import './Project.css';
-import { AiFillFolder } from 'react-icons/ai';
 import { FiGithub, FiExternalLink } from 'react-icons/fi';
 
 const Project = (props) => {
@@ -8,7 +7,12 @@ const Project = (props) => {
   return (
     <div className="project-card">
       <h4>{title}</h4>
-      <p>{description}</p>
+      {/* <p>{description}</p> */}
+      <div className="project-description">
+        {description.map((paragraph) => (
+          <p key={paragraph}>{paragraph}</p>
+        ))}
+      </div>
       <div className="project-skills">
         {skills.map((skill) => (
           <p key={skill}>{skill}</p>

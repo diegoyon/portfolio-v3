@@ -9,30 +9,23 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
 const Projects = () => {
-  const [title, setTitle] = useState('title');
-  const [description, setDescription] = useState('description');
-  // const [title, setTitle] = useState('title')
-  // const [title, setTitle] = useState('title')
+  const [title, setTitle] = useState();
+  const [description, setDescription] = useState([]);
+  const [skills, setSkills] = useState([]);
+  const [gitHub, setGitHub] = useState();
+  const [live, setLive] = useState();
   const handleSlideChange = (e) => {
     setTitle(ProjectsData[e.realIndex].title);
     setDescription(ProjectsData[e.realIndex].description);
+    setSkills(ProjectsData[e.realIndex].skills);
+    setGitHub(ProjectsData[e.realIndex].gitHub);
+    setLive(ProjectsData[e.realIndex].live);
   };
 
   return (
     <section className="projects" id="projects">
       <h2>My Projects</h2>
-      {/* <div className="projects-list">
-        {ProjectsData.map((project) => (
-          <Project
-            key={project.title}
-            title={project.title}
-            gitHub={project.gitHub}
-            live={project.live}
-            description={project.description}
-            skills={project.skills}
-          />
-        ))}
-      </div> */}
+
       <div className="project-container">
         <Swiper
           onSlideChange={handleSlideChange}
@@ -52,39 +45,17 @@ const Projects = () => {
         >
           {ProjectsData.map((project) => (
             <SwiperSlide key={project.title}>
-              <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+              <img src={project.image} />
             </SwiperSlide>
-
-            // <Project
-            //   key={project.title}
-            //   title={project.title}
-            //   gitHub={project.gitHub}
-            //   live={project.live}
-            //   description={project.description}
-            //   skills={project.skills}
-            // />
           ))}
-          {/* <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
-        </SwiperSlide> */}
         </Swiper>
-        {/* <h1>{title}</h1>
-      <p>{description}</p> */}
+
         <Project
           title={title}
-          gitHub={title}
-          live={title}
+          gitHub={gitHub}
+          live={live}
           description={description}
-          skills={['html', 'css']}
+          skills={skills}
         />
       </div>
     </section>

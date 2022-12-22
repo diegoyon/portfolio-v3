@@ -58,6 +58,12 @@
   color: #aeb8ca;
 }
 
+.project-description {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
 .project-skills {
   display: flex;
   gap: 0.5rem;
