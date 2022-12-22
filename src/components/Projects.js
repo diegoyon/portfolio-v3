@@ -58,11 +58,11 @@ const Projects = () => {
           skills={skills}
         />
       </div>
-      <a href="https://github.com/diegoyon?tab=repositories" target="_blank">
+      {/* <a href="https://github.com/diegoyon?tab=repositories" target="_blank">
         <button type="submit" value="Projects Archive">
           All Projects Archive
         </button>
-      </a>
+      </a> */}
     </section>
   );
 };

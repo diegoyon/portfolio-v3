@@ -25,3 +25,15 @@
 .skill-icon {
   font-size: 3rem;
 }
+
+@media (min-width: 640px) {
+  .skills-grid {
+    /* gap: 3rem; */
+    column-gap: 8rem;
+    row-gap: 3rem;
+  }
+
+  .skill-icon {
+    font-size: 4.5rem;
+  }
+}
