@@ -40,7 +40,7 @@ const ProjectsData = [
       'The CrytoApp is a single page application that consumes an API that contains updated information about cryptocurrencies data.',
       'Currencies displayed can be filtered by ranking, price or percentage change. It also shows more detail information about each crytocurrency including a graph showing the price movement.',
     ],
-    skills: ['React', 'API'],
+    skills: ['React', 'Redux', 'API'],
     image: highground,
   },
   // {

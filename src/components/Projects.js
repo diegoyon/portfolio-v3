@@ -32,10 +32,10 @@ const Projects = () => {
           slidesPerView={1}
           spaceBetween={0}
           loop={true}
-          // autoplay={{
-          //   delay: 2500,
-          //   disableOnInteraction: false,
-          // }}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: true,
+          }}
           pagination={{
             clickable: true,
           }}
@@ -58,6 +58,11 @@ const Projects = () => {
           skills={skills}
         />
       </div>
+      <a href="https://github.com/diegoyon?tab=repositories" target="_blank">
+        <button type="submit" value="Projects Archive">
+          All Projects Archive
+        </button>
+      </a>
     </section>
   );
 };
