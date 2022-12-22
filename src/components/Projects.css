@@ -1,5 +1,5 @@
 .projects {
-  /* height: 100vh; */
+  height: calc(100vh - 5rem);
   /* padding: 0rem 0; */
   color: white;
   display: flex;
@@ -7,7 +7,7 @@
   align-items: center;
   justify-content: center;
   scroll-snap-align: start;
-  padding-bottom: 20rem;
+  gap: 3rem;
 }
 
 .projects-list {
@@ -18,4 +18,43 @@
   /* grid-template-columns: repeat(3, 1fr); */
   gap: 2rem;
   max-width: 50rem;
+}
+
+.swiper {
+  height: 25rem;
+  flex: 2;
+  /* margin: 3rem auto; */
+  border-radius: 1rem;
+}
+
+.swiper-slide {
+  /* Center slide text vertically */
+  /* display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center; */
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project-container {
+  display: flex;
+  width: 100%;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  max-height: 45rem;
 }

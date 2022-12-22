@@ -1,16 +1,14 @@
 .project-card {
-  background-color: #222632;
-  padding: 2rem;
+  /* background-color: #222632; */
+  /* border: 1px solid red; */
+  /* padding: 2rem; */
   border-radius: 5px;
-  width: 18rem;
+  height: 25rem;
+  /* width: 80%; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  transition: transform 0.3s;
-}
-
-.project-card:hover {
-  transform: scale(1.05);
+  flex: 1;
 }
 
 .project-card a {
@@ -21,50 +19,60 @@
   color: rgba(0, 212, 255, 1);
 }
 
-.header-icons {
+.card-icons {
   display: flex;
-  justify-content: space-between;
-  font-size: 1.5rem;
+  /* justify-content: space-between; */
+  gap: 1rem;
 }
 
-.project-icons-left {
+.card-icons-specific {
+  border: 1px solid white;
+  border-radius: 0.3rem;
+  padding: 0.4rem;
+  font-size: 2.2rem;
+  display: block;
+}
+
+.card-icons-specific:hover {
+  border: 1px solid rgba(0, 212, 255, 1);
+}
+
+/* .project-icons-left {
   color: rgba(0, 212, 255, 1);
 }
 
 .project-icons-right {
   display: flex;
   gap: 0.5rem;
-}
+} */
 
-.project-details {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 2rem 0;
-}
-
-.project-details h4 {
-  font-size: 0.8rem;
+.project-card h4 {
+  font-size: 2rem;
+  font-weight: 600;
   margin-bottom: 0.3rem;
+  line-height: 2rem;
 }
 
-.project-details p {
-  font-size: 0.7rem;
+.project-card p {
+  font-size: 0.8rem;
   color: #aeb8ca;
 }
 
 .project-skills {
-  /* margin-top: 1rem; */
   display: flex;
   gap: 0.5rem;
   flex-wrap: wrap;
-  justify-content: center;
 }
 
 .project-skills p {
-  border: 1px solid #aeb8ca;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 212, 255, 1) 0%,
+    rgb(41, 145, 0) 100%
+  );
+  color: white;
+  font-weight: 500;
   padding: 0.2rem 0.5rem;
   border-radius: 15px;
-  font-size: 0.6rem;
+  font-size: 1rem;
 }

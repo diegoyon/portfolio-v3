@@ -7,25 +7,20 @@ const Project = (props) => {
   const { title, gitHub, live, description, skills } = props;
   return (
     <div className="project-card">
-      <div className="header-icons">
-        <AiFillFolder className="project-icons-left" />
-        <div className="project-icons-right">
-          <a href={gitHub} target="_blank" rel="noreferrer">
-            <FiGithub />
-          </a>
-          <a href={live} target="_blank" rel="noreferrer">
-            <FiExternalLink />
-          </a>
-        </div>
-      </div>
-      <div className="project-details">
-        <h4>{title}</h4>
-        <p>{description}</p>
-      </div>
+      <h4>{title}</h4>
+      <p>{description}</p>
       <div className="project-skills">
         {skills.map((skill) => (
           <p key={skill}>{skill}</p>
         ))}
+      </div>
+      <div className="card-icons">
+        <a href={gitHub} target="_blank" rel="noreferrer">
+          <FiGithub className="card-icons-specific" />
+        </a>
+        <a href={live} target="_blank" rel="noreferrer">
+          <FiExternalLink className="card-icons-specific" />
+        </a>
       </div>
     </div>
   );
