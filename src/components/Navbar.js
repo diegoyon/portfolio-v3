@@ -27,6 +27,11 @@ const Navbar = () => {
                 </HashLink>
               </li>
               <li>
+                <HashLink to="#projects" smooth>
+                  Projects
+                </HashLink>
+              </li>
+              <li>
                 <HashLink to="#about" smooth>
                   About
                 </HashLink>
@@ -34,11 +39,6 @@ const Navbar = () => {
               <li>
                 <HashLink to="#skills" smooth>
                   Skills
-                </HashLink>
-              </li>
-              <li>
-                <HashLink to="#projects" smooth>
-                  Projects
                 </HashLink>
               </li>
               <li>

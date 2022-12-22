@@ -70,3 +70,23 @@
   justify-content: center;
   max-height: 45rem;
 }
+
+@media (max-width: 640px) {
+  .project-container {
+    flex-direction: column;
+    max-height: 80%;
+  }
+
+  .swiper {
+    width: 100%;
+  }
+
+  .project-card {
+    gap: 1rem;
+  }
+
+  .projects {
+    justify-content: flex-start;
+    padding-top: 2rem;
+  }
+}

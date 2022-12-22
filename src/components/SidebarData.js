@@ -12,6 +12,12 @@ export const SidebarData = [
     cName: 'nav-text',
   },
   {
+    title: 'Projects',
+    path: '#projects',
+    icon: <AiFillFolder />,
+    cName: 'nav-text',
+  },
+  {
     title: 'About',
     path: '#about',
     icon: <CgProfile />,
@@ -23,12 +29,7 @@ export const SidebarData = [
     icon: <GoTools />,
     cName: 'nav-text',
   },
-  {
-    title: 'Projects',
-    path: '#projects',
-    icon: <AiFillFolder />,
-    cName: 'nav-text',
-  },
+
   {
     title: 'Contact',
     path: '#contact',
