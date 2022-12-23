@@ -3,7 +3,7 @@
   /* border: 1px solid red; */
   /* padding: 2rem; */
   border-radius: 5px;
-  height: 25rem;
+  height: 28rem;
   /* width: 80%; */
   display: flex;
   flex-direction: column;
@@ -54,7 +54,7 @@
 }
 
 .project-card p {
-  font-size: 0.85rem;
+  font-size: 1rem;
   color: #aeb8ca;
 }
 
@@ -78,9 +78,9 @@
   );
   color: white;
   font-weight: 500;
-  padding: 0.2rem 0.5rem;
+  padding: 0.4rem 0.5rem;
   border-radius: 15px;
-  font-size: 1rem;
+  font-size: 0.85rem;
 }
 
 @media (max-width: 640px) {

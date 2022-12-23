@@ -1,6 +1,7 @@
 import highground from '../images/high-ground.png';
 import budget from '../images/budget.png';
 import shows from '../images/tv-shows.png';
+import cryptoapp from '../images/cryptoapp.png';
 
 const ProjectsData = [
   {
@@ -41,7 +42,7 @@ const ProjectsData = [
       'Currencies displayed can be filtered by ranking, price or percentage change. It also shows more detail information about each crytocurrency including a graph showing the price movement.',
     ],
     skills: ['React', 'Redux', 'API'],
-    image: highground,
+    image: cryptoapp,
   },
   // {
   //   title: 'Recipe App',
