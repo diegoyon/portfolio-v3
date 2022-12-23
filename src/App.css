@@ -3,6 +3,7 @@
 :root {
   --main: black;
   --secondary: gray;
+  scroll-snap-type: y mandatory;
 }
 
 * {
@@ -13,7 +14,7 @@
 }
 
 body {
-  background: rgb(2, 0, 36);
+  background: #171a21;
 
   /* padding: 0 3rem; */
   display: flex;
@@ -60,12 +61,11 @@ button:hover {
 
 main {
   scroll-snap-type: y mandatory;
-  overflow-y: scroll;
   height: 100vh;
   padding: 0 3rem;
   background: linear-gradient(
     15deg,
-    rgba(2, 0, 36, 1) 0%,
+    #171a21 0%,
     rgba(23, 26, 33, 1) 68%,
     rgba(0, 212, 255, 1) 100%
   );

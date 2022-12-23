@@ -13,17 +13,25 @@ import {
 } from 'react-icons/si';
 import { FaReact } from 'react-icons/fa';
 
-// import AOS from 'aos';
-// import 'aos/dist/aos.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Skills = () => {
-  // useEffect(() => {
-  //   AOS.init({ duration: 2000 });
-  // }, []);
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <section className="skills" id="skills">
-      <h2>My Skills</h2>
-      <div className="skills-grid">
+      <h2 data-aos="fade-right" data-aos-duration="3000">
+        My Skills
+      </h2>
+      <div
+        className="skills-grid"
+        data-aos="zoom-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
+        data-aos-duration="3000"
+      >
         <div className="skill-card">
           <AiFillHtml5 className="skill-icon" />
           <p>HTML</p>
