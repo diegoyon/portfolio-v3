@@ -70,11 +70,6 @@
     gap: 1rem;
   }
 
-  .projects {
-    /* justify-content: flex-start; */
-    /* padding-top: 2rem; */
-  }
-
   .all-projects-button {
     display: none;
   }
