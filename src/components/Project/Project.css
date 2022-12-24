@@ -87,4 +87,8 @@
   .project-card {
     gap: 1rem;
   }
+
+  .project-card p {
+    font-size: 0.8rem;
+  }
 }
