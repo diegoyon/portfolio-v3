@@ -19,7 +19,7 @@ const Skills = () => {
       <h2 data-aos="zoom-in" data-aos-duration="2000">
         My Skills
       </h2>
-      <div className="skills-grid" data-aos="zoom-out" data-aos-duration="2000">
+      <div className="skills-grid" data-aos="zoom-in" data-aos-duration="2000">
         <div className="skill-card">
           <AiFillHtml5 className="skill-icon" />
           <p>HTML</p>
