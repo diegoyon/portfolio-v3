@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './Skills.css';
 import { AiFillHtml5, AiFillGithub } from 'react-icons/ai';
 import { DiCss3, DiRuby } from 'react-icons/di';
@@ -13,13 +13,7 @@ import {
 } from 'react-icons/si';
 import { FaReact } from 'react-icons/fa';
 
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-
 const Skills = () => {
-  useEffect(() => {
-    AOS.init();
-  }, []);
   return (
     <section className="skills" id="skills">
       <h2 data-aos="fade-right" data-aos-duration="3000">
