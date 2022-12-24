@@ -103,4 +103,8 @@
   .mobile {
     display: flex;
   }
+
+  .navbar {
+    padding: 0 2rem;
+  }
 }

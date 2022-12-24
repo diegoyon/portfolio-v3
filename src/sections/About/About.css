@@ -64,7 +64,19 @@
   }
 
   .about img {
-    height: 10rem;
-    width: 10rem;
+    height: 8rem;
+    width: 8rem;
+  }
+
+  .about {
+    gap: 0.8rem;
+  }
+
+  .information {
+    gap: 0.5rem;
+  }
+
+  .bio {
+    gap: 0.5rem;
   }
 }
