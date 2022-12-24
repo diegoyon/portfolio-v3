@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Projects.css';
-import Project from '../../components/Project';
-import ProjectsData from '../../components/ProjectsData';
+import Project from '../../components/Project/Project';
+import ProjectsData from '../../components/Project/ProjectsData';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination, Navigation } from 'swiper';
 import 'swiper/css';

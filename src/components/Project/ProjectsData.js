@@ -1,7 +1,7 @@
-import highground from '../images/high-ground.png';
-import budget from '../images/budget.png';
-import shows from '../images/tv-shows.png';
-import cryptoapp from '../images/cryptoapp.png';
+import highground from '../../images/high-ground.png';
+import budget from '../../images/budget.png';
+import shows from '../../images/tv-shows.png';
+import cryptoapp from '../../images/cryptoapp.png';
 
 const ProjectsData = [
   {

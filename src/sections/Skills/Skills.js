@@ -16,16 +16,10 @@ import { FaReact } from 'react-icons/fa';
 const Skills = () => {
   return (
     <section className="skills" id="skills">
-      <h2 data-aos="fade-right" data-aos-duration="3000">
+      <h2 data-aos="zoom-in" data-aos-duration="3000">
         My Skills
       </h2>
-      <div
-        className="skills-grid"
-        data-aos="zoom-out"
-        data-aos-mirror="true"
-        data-aos-once="false"
-        data-aos-duration="3000"
-      >
+      <div className="skills-grid" data-aos="zoom-out" data-aos-duration="3000">
         <div className="skill-card">
           <AiFillHtml5 className="skill-icon" />
           <p>HTML</p>
