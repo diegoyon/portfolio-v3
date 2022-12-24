@@ -10,16 +10,6 @@
   gap: 3rem;
 }
 
-.projects-list {
-  margin: 2rem 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  /* grid-template-columns: repeat(3, 1fr); */
-  gap: 2rem;
-  max-width: 50rem;
-}
-
 .swiper {
   height: 28rem;
   flex: 2;
@@ -63,9 +53,14 @@
 
   .swiper {
     /* max-height: 20rem; */
+    /* border: 1px solid red; */
     width: 100%;
-    min-height: 15rem;
+    /* height: 8rem; */
+    min-height: 8rem;
+    /* max-height: 8rem; */
+    /* padding-bottom: 20%; */
     /* height: 15rem; */
+    aspect-ratio: 4/3;
   }
 
   .project-card {

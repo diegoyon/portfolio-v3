@@ -18,7 +18,6 @@ function App() {
     <>
       <main>
         <Navbar />
-
         <Home />
         <About />
         <Projects />
