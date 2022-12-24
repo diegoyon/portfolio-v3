@@ -4,14 +4,19 @@ import './Contact.css';
 const Contact = () => {
   return (
     <section className="contact" id="contact">
-      <div className="contact-text">
+      <div className="contact-text" data-aos="fade-right">
         <h2>Contact</h2>
         <h3>
           I'm always interested in hearing about new projects, so if you'd like
           to chat please get in touch.
         </h3>
       </div>
-      <form action="https://formspree.io/f/mnqwwwwq" method="post" id="form">
+      <form
+        action="https://formspree.io/f/mnqwwwwq"
+        method="post"
+        id="form"
+        data-aos="fade-left"
+      >
         <input
           type="text"
           name="name"

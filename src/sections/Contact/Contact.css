@@ -10,6 +10,7 @@
   /* place-items: center; */
   gap: 2rem;
   scroll-snap-align: start;
+  overflow-x: hidden;
 }
 
 .contact-text {

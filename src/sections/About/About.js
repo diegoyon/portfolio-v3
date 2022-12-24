@@ -7,7 +7,7 @@ const About = () => {
     <section className="about" id="about">
       <h2>About me</h2>
       <div className="information">
-        <div className="bio">
+        <div className="bio" data-aos="flip-left">
           <p>
             Hello! My name is Diego and I enjoy building new and innovative
             content for the web while solving all kinds of different challenges
@@ -24,7 +24,7 @@ const About = () => {
             project you need coded, don't hesitate to contact me.
           </p>
         </div>
-        <div className="profile-pic">
+        <div className="profile-pic" data-aos="flip-right">
           <img src={profile} alt="profile" />
         </div>
       </div>
