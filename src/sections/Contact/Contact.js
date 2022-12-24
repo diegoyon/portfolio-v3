@@ -1,21 +1,52 @@
 import React from 'react';
 import './Contact.css';
+import { BsLinkedin, BsGithub } from 'react-icons/bs';
+import { GoMail } from 'react-icons/go';
 
 const Contact = () => {
   return (
     <section className="contact" id="contact">
-      <div className="contact-text" data-aos="fade-right">
+      <div className="contact-text" data-aos="flip-down">
         <h2>Contact</h2>
         <h3>
           I'm always interested in hearing about new projects, so if you'd like
           to chat please get in touch.
         </h3>
+        <ul className="icon-list">
+          <li>
+            <a
+              href="https://www.linkedin.com/in/diego-yon/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <BsLinkedin className="icons" />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/diegoyon"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <BsGithub className="icons" />
+            </a>
+          </li>
+          <li>
+            <a
+              href="mailto: diegoyon@outlook.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <GoMail className="icons" />
+            </a>
+          </li>
+        </ul>
       </div>
       <form
         action="https://formspree.io/f/mnqwwwwq"
         method="post"
         id="form"
-        data-aos="fade-left"
+        data-aos="flip-up"
       >
         <input
           type="text"

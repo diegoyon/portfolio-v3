@@ -10,7 +10,7 @@
   /* place-items: center; */
   gap: 2rem;
   scroll-snap-align: start;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 .contact-text {
@@ -47,6 +47,10 @@ textarea:focus {
 input:hover,
 textarea:hover {
   transform: translate(0.5rem, 0);
+}
+
+.contact ul {
+  margin: 0;
 }
 
 @media (min-width: 640px) {
