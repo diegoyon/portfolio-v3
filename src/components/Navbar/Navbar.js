@@ -57,7 +57,7 @@ const Navbar = () => {
               <ul className="nav-menu-items">
                 <li className="navbar-toggle" onClick={showSidebar}>
                   <HashLink className="menu-bars">
-                    <AiOutlineClose />
+                    <AiOutlineClose className="x-icon" />
                   </HashLink>
                 </li>
                 {SidebarData.map((item, index) => {

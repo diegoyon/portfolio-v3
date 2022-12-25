@@ -8,7 +8,7 @@
   display: flex;
   justify-content: center;
   padding: 0 3rem;
-  backdrop-filter: blur(5px);
+  /* backdrop-filter: blur(5px); */
   color: white;
   z-index: 10;
 }
@@ -45,16 +45,17 @@
 }
 
 .nav-menu {
-  background-color: rgba(0, 212, 255, 0.8);
+  background-color: rgba(0, 212, 255, 0.7);
   width: 15rem;
   height: 100vh;
   display: flex;
   justify-content: center;
   position: fixed;
-  padding: 1rem;
+  padding: 2rem;
   top: 0;
   right: -100%;
   transition: 850ms;
+  backdrop-filter: blur(5px);
 }
 
 .nav-menu a {
@@ -64,13 +65,17 @@
 .nav-menu.activated {
   right: 0;
   transition: 350ms;
-  backdrop-filter: blur(5px);
 }
 
 .nav-menu-items {
   display: flex;
   width: 100%;
   flex-direction: column;
+}
+
+.x-icon {
+  display: block;
+  font-size: 1.5rem;
 }
 
 .navbar-toggle {
@@ -83,6 +88,8 @@
   align-items: center;
   padding: 1rem;
   gap: 1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
 }
 
 .nav-text a {
