@@ -40,8 +40,37 @@
 }
 
 .home h3 {
-  color: white;
+  /* color: white; */
+  display: inline;
   animation: slidein 2s ease-in;
+  color: transparent;
+  background-image: linear-gradient(
+    to left,
+    #2ecc71,
+    #3498db,
+    #9b59b6,
+    #f39c12
+  );
+  background-clip: text;
+  animation: color 10s linear 0s infinite;
+}
+
+@keyframes color {
+  0% {
+    color: white;
+  }
+  40% {
+    color: white;
+  }
+  50% {
+    color: transparent;
+  }
+  60% {
+    color: white;
+  }
+  100% {
+    color: white;
+  }
 }
 
 @keyframes animate {

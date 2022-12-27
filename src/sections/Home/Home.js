@@ -6,11 +6,14 @@ import { GoMail } from 'react-icons/go';
 const Home = () => {
   return (
     <section className="home" id="home">
-      <h3>Hey there!</h3>
+      {/* <h3>Hey there!</h3> */}
       <h1>I'm Diego</h1>
-      <h2>
-        FULL-STACK DEVELOPER WITH LOVE FOR CLEAN CODE AND ACCESIBLE DESIGN.
-      </h2>
+      <h2>FULL-STACK DEVELOPER</h2>
+      <div>
+        <h3>CLEAN CODE. </h3>
+        <h3>ACCESIBLE DESIGN. </h3>
+        <h3>ELEGANT SOLUTION.</h3>
+      </div>
       <p>BUILDING DIGITAL PRODUCTS, BRANDS, AND EXPERIENCES.</p>
       <ul className="icon-list">
         <li>
