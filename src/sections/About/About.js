@@ -29,7 +29,7 @@ const About = () => {
         </div>
       </div>
       <form
-        action="https://docs.google.com/document/d/e/2PACX-1vQHP4Vv3HsEh2HniIrGM-XR3hppUQwrhkEJptrFYtlCx5SJl3jT9kbVQsv4mx-z4-z4JCipNp6jK2_n/pub"
+        action="https://drive.google.com/file/d/1J0tvFJifIHu9i1rDjFyinC-xjaQaLydG/view?usp=sharing"
         target="_blank"
       >
         <button type="submit" value="See resume">

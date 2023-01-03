@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <section className="home" id="home">
       {/* <h3>Hey there!</h3> */}
-      <h1>I'm Diego</h1>
+      <h1>Diego Yon</h1>
       <h2>FULL-STACK DEVELOPER</h2>
       <div className="titles">
         <h3>CLEAN CODE.</h3>

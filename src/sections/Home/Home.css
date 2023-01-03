@@ -10,7 +10,9 @@
 
 .home h1 {
   font-size: 2rem;
-  color: white;
+  font-weight: 500;
+  color: rgba(0, 212, 255, 1);
+  /* color: #aeb8ca; */
   animation: slidein 1.5s ease-in;
 }
 
@@ -22,11 +24,13 @@
 }
 
 .home h2 {
-  /* color: white; */
+  color: white;
+  /* color: #aeb8ca; */
   font-size: 3rem;
   line-height: 2.4rem;
-  margin: 1rem 0;
-  color: transparent;
+  /* margin: 1rem 0; */
+  margin-bottom: 1rem;
+  /* color: transparent; */
   background-image: linear-gradient(
     to left,
     #2ecc71,
@@ -145,7 +149,7 @@
   }
 
   .home h3 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .home h1 {
@@ -155,13 +159,18 @@
   .home p {
     font-size: 1.25rem;
   }
+  .titles {
+    flex-direction: row;
+    gap: 0.7rem;
+    text-align: center;
+  }
 }
 
 @media (min-width: 768px) {
   .home h2 {
     text-align: center;
     font-size: 4.4rem;
-    margin: 0;
+    /* margin: 0; */
     /* line-height: 4rem; */
   }
 
@@ -176,10 +185,5 @@
 
   .home p {
     font-size: 1.5rem;
-  }
-
-  .titles {
-    flex-direction: row;
-    gap: 0.7rem;
   }
 }
