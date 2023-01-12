@@ -9,7 +9,7 @@
 
 ## Live Demo
 
-[Portfolio](https://diego-yon-portfolio.netlify.app/)
+[Portfolio](https://diego-yon.netlify.app/)
 
 ## Getting Started
 
