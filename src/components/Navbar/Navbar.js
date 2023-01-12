@@ -16,10 +16,14 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="inside-navbar">
-        <h1>DY</h1>
+        <Router>
+          <h1>
+            <HashLink to="#home" smooth>
+              DY
+            </HashLink>
+          </h1>
 
-        <div className="desktop">
-          <Router>
+          <div className="desktop">
             <ul className="navbar-links">
               <li>
                 <HashLink to="#home" smooth>
@@ -47,8 +51,8 @@ const Navbar = () => {
                 </HashLink>
               </li>
             </ul>
-          </Router>
-        </div>
+          </div>
+        </Router>
 
         <div className="mobile">
           <Router>
