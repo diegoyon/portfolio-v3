@@ -3,18 +3,14 @@
   padding-top: 5rem;
   display: flex;
   color: white;
-  /* flex-direction: row */
-  /* align-items: center; */
   flex-direction: column;
   justify-content: center;
-  /* place-items: center; */
   gap: 0.5rem;
   scroll-snap-align: start;
-  /* overflow-x: hidden; */
+  max-width: 55rem;
 }
 
 .contact-text {
-  /* flex: 1; */
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
@@ -25,7 +21,6 @@
 }
 
 .contact form {
-  /* flex: 1; */
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
@@ -35,18 +30,28 @@ input,
 textarea {
   padding: 0.5rem;
   transition: transform 0.3s;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #aeb8ca;
+  color: white;
 }
 
 input:active,
 input:focus,
 textarea:active,
 textarea:focus {
-  outline: 2px solid rgba(0, 212, 255, 1);
+  outline: none;
+  border-bottom: 2px solid rgba(0, 212, 255, 1);
 }
 
 input:hover,
 textarea:hover {
   transform: translate(0.5rem, 0);
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #aeb8ca;
 }
 
 .contact ul {
@@ -61,20 +66,16 @@ textarea:hover {
   .contact {
     flex-direction: row;
     align-items: center;
+    gap: 3rem;
   }
 
   .contact-text {
-    flex: 2;
     height: 26rem;
     gap: 2rem;
   }
 
   .contact-text h3 {
     font-size: 1.5rem;
-  }
-
-  .contact form {
-    flex: 1;
   }
 
   input,

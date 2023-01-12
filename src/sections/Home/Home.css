@@ -5,14 +5,12 @@
   flex-direction: column;
   justify-content: center;
   scroll-snap-align: start;
-  /* max-height: 80vh; */
 }
 
 .home h1 {
   font-size: 2rem;
   font-weight: 500;
   color: rgba(0, 212, 255, 1);
-  /* color: #aeb8ca; */
   animation: slidein 1.5s ease-in;
 }
 
@@ -25,12 +23,9 @@
 
 .home h2 {
   color: white;
-  /* color: #aeb8ca; */
   font-size: 3rem;
   line-height: 2.4rem;
-  /* margin: 1rem 0; */
   margin-bottom: 1rem;
-  /* color: transparent; */
   background-image: linear-gradient(
     to left,
     #2ecc71,
@@ -170,8 +165,6 @@
   .home h2 {
     text-align: center;
     font-size: 4rem;
-    /* margin: 0; */
-    /* line-height: 4rem; */
   }
 
   .home h3 {
@@ -192,8 +185,6 @@
   .home h2 {
     text-align: center;
     font-size: 4.4rem;
-    /* margin: 0; */
-    /* line-height: 4rem; */
   }
 
   .titles h3 {
