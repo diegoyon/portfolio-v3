@@ -39,3 +39,14 @@
     font-size: 4.5rem;
   }
 }
+
+@media (max-height: 720px) {
+  .skill-icon {
+    font-size: 3.5rem;
+  }
+
+  .skills-grid {
+    column-gap: 5rem;
+    row-gap: 2rem;
+  }
+}

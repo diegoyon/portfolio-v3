@@ -71,3 +71,21 @@
     display: none;
   }
 }
+
+@media (max-height: 720px) {
+  .swiper {
+    height: 20rem;
+  }
+
+  .project-card {
+    height: 15rem !important;
+  }
+
+  .project-card h4 {
+    font-size: 1rem !important;
+  }
+
+  .project-card p {
+    font-size: 0.7rem !important;
+  }
+}
