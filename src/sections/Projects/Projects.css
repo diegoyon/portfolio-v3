@@ -13,7 +13,6 @@
 .swiper {
   height: 28rem;
   flex: 2;
-  /* margin: 3rem auto; */
   border-radius: 1rem;
 }
 
@@ -52,14 +51,8 @@
   }
 
   .swiper {
-    /* max-height: 20rem; */
-    /* border: 1px solid red; */
     width: 100%;
-    /* height: 8rem; */
     min-height: 8rem;
-    /* max-height: 8rem; */
-    /* padding-bottom: 20%; */
-    /* height: 15rem; */
     aspect-ratio: 4/3;
   }
 
