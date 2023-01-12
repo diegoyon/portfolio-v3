@@ -169,13 +169,13 @@
 @media (min-width: 768px) {
   .home h2 {
     text-align: center;
-    font-size: 4.4rem;
+    font-size: 4rem;
     /* margin: 0; */
     /* line-height: 4rem; */
   }
 
   .home h3 {
-    font-size: 2.2rem;
+    font-size: 1.55rem;
     line-height: 2.2rem;
   }
 
@@ -185,5 +185,18 @@
 
   .home p {
     font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1040px) {
+  .home h2 {
+    text-align: center;
+    font-size: 4.4rem;
+    /* margin: 0; */
+    /* line-height: 4rem; */
+  }
+
+  .titles h3 {
+    font-size: 2.2rem;
   }
 }

@@ -11,9 +11,12 @@
 
 .skills-grid {
   display: grid;
+  justify-content: space-evenly;
+  /* padding: 1rem; */
+  width: 100%;
   grid-template-columns: repeat(3, 1fr);
-  column-gap: 0.2rem;
-  row-gap: 2rem;
+  /* column-gap: 0.2rem; */
+  row-gap: 1rem;
   margin: 2rem 0;
   color: rgba(0, 212, 255, 1);
 }
@@ -26,14 +29,15 @@
 }
 
 .skill-icon {
-  font-size: 1.5rem;
+  font-size: 3.5rem;
 }
 
 @media (min-width: 640px) {
   .skills-grid {
     /* gap: 3rem; */
-    column-gap: 8rem;
-    row-gap: 3rem;
+    /* column-gap: 8rem;
+    row-gap: 3rem; */
+    max-width: 45rem;
   }
 
   .skill-icon {
@@ -43,11 +47,11 @@
 
 @media (max-height: 720px) {
   .skill-icon {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
   }
 
   .skills-grid {
-    column-gap: 5rem;
-    row-gap: 2rem;
+    /* column-gap: 2rem;
+    row-gap: 2rem; */
   }
 }
