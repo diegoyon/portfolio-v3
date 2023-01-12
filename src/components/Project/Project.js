@@ -7,7 +7,6 @@ const Project = (props) => {
   return (
     <div className="project-card">
       <h4>{title}</h4>
-      {/* <p>{description}</p> */}
       <div className="project-description">
         {description.map((paragraph) => (
           <p key={paragraph}>{paragraph}</p>

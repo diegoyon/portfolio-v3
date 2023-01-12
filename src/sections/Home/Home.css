@@ -53,17 +53,17 @@
 
 .home h3:nth-child(1) {
   background-image: linear-gradient(to left, #2ecc71, #3498db);
-  animation: color 9s linear 0s infinite;
+  animation: color 6s linear 0s infinite;
 }
 
 .home h3:nth-child(2) {
   background-image: linear-gradient(to left, #3498db, #9b59b6);
-  animation: color 9s linear 3s infinite;
+  animation: color 6s linear 2s infinite;
 }
 
 .home h3:nth-child(3) {
   background-image: linear-gradient(to left, #9b59b6, #f39c12);
-  animation: color 9s linear 6s infinite;
+  animation: color 6s linear 4s infinite;
 }
 
 @keyframes color {
