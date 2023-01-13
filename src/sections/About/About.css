@@ -76,10 +76,14 @@
 
 @media (max-height: 720px) {
   .information p {
-    font-size: 0.8rem;
+    line-height: 1.1rem;
   }
 
   .about {
     gap: 1rem;
+  }
+
+  .about img {
+    max-width: 16rem;
   }
 }

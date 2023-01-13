@@ -71,15 +71,15 @@
   }
 
   .project-card {
-    height: 15rem !important;
+    height: 20rem !important;
   }
 
   .project-card h4 {
-    font-size: 1rem !important;
+    font-size: 1.5rem !important;
   }
 
   .project-card p {
-    font-size: 0.7rem !important;
+    line-height: 1.1rem;
   }
 
   .projects {
