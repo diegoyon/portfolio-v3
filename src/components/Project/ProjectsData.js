@@ -2,6 +2,7 @@ import highground from '../../images/high-ground.png';
 import budget from '../../images/budget.png';
 import shows from '../../images/tv-shows.png';
 import cryptoapp from '../../images/cryptoapp2.png';
+import crossfitxela from '../../images/crossfitxela.png';
 
 const ProjectsData = [
   {
@@ -22,6 +23,17 @@ const ProjectsData = [
   //     'Individuals, small and big teams gain access to space that is both more customized than coffee shops and cheaper than full leases, and coworking businesses get to rent out their unused office space and foster a community of growth and innovation.',
   //   skills: ['React', 'Redux', 'Ruby On Rails', 'Tailwind'],
   // },
+  {
+    title: 'CrossFit Xela',
+    gitHub: 'https://github.com/diegoyon/crossfit-xela',
+    live: 'http://crossfitxela.com/',
+    description: [
+      'A single page application that displays information about a CrossFit Gym. The app features smooth animations that enhance the user experience.',
+      'Overall, this web application offers an intuitive and interactive experience for gym members and potential clients.',
+    ],
+    skills: ['React', 'Typescript'],
+    image: crossfitxela,
+  },
   {
     title: 'High Ground Fitness Competition',
     gitHub: 'https://github.com/diegoyon/highground',
