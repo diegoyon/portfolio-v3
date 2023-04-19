@@ -14,9 +14,10 @@ const About = () => {
             that they may present.
           </p>
           <p>
-            I have been working on software development for almost a year, built
-            20+ real-world projects, and am constantly learning new languages,
-            frameworks, and technologies.
+            My front-end development experience include HTML, CSS, and
+            JavaScript, and my back-end development include Ruby on Rails and
+            PostgreSQL. I am constantly learning new languages, frameworks, and
+            technologies.
           </p>
           <p>
             I can help you build a product, feature, or website. Look through
