@@ -14,8 +14,8 @@ const About = () => {
             that they may present.
           </p>
           <p>
-            My front-end development experience include HTML, CSS, and
-            JavaScript, and my back-end development experience include Ruby on
+            My front-end development experience includes HTML, CSS, JavaScript,
+            and React, and my back-end development experience includes Ruby on
             Rails and PostgreSQL. I am constantly learning new languages,
             frameworks, and technologies.
           </p>
@@ -30,7 +30,7 @@ const About = () => {
         </div>
       </div>
       <form
-        action="https://drive.google.com/file/d/1J0tvFJifIHu9i1rDjFyinC-xjaQaLydG/view?usp=sharing"
+        action="https://drive.google.com/file/d/1Iv2cYbEqNjGL8tFLkKY344RMZMwqQ_4r/view?usp=sharing"
         target="_blank"
       >
         <button type="submit" value="See resume">
